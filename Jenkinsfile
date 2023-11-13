@@ -2,12 +2,12 @@ pipeline {
     agent any
     
     stages {
-        stage("checkout") {
-            steps {
-                git branch:'main', url:'https://github.com/Ossi98/jenkins-spring-petclinic'
-            }
+        //stage("checkout") {
+        //    steps {
+        //        git branch:'main', url:'https://github.com/Ossi98/jenkins-spring-petclinic'
+        //    }
             
-        }
+        //}
         
         stage("build") {
             steps {
